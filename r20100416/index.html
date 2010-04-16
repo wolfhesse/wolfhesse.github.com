@@ -1,0 +1,21 @@
+<script src='http://code.jquery.com/jquery-latest.js'></script>
+<script src='../javascript/xml2json.js'></script>
+<body>
+<form>
+    <input id='iptxml' size='80'></input>
+    <a id='convert'>convert</a>
+    <form>
+        <textarea id='outjson' rows=10 cols=20></textarea>
+        <script>
+            $(document).ready(function(){
+
+                $('#convert').click(function(event){
+
+                    iptxml=$('#iptxml');
+                    outjson=$('#outjson');
+                    outjson[0].value=xml2json.show_json_structure(xml2json.parser(iptxml[0].value));
+                });
+
+            });
+        </script>
+    </body>
