@@ -86,7 +86,7 @@ xml2json={
 		var x='';
 		if (obj.sort){x+="[\n"} else {x+="{\n"};
 		for (var i in obj){
-			if (!obj.sort){x+=i+":"};
+			if (!obj.sort){x+="\""+i+"\":"};
 			if (typeof obj[i] == "object"){
 				x+=this.show_json_structure(obj[i],false,1)
 			}
@@ -97,7 +97,7 @@ xml2json={
 					x+=v
 				}
 				else if(typeof obj[i]!="string"){x+=obj[i]+",\n"}
-				else {x+="'"+obj[i].replace(/\'/g,"\\'").replace(/\n/g,"\\n").replace(/\t/g,"\\t").replace(/\r/g,"\\r")+"',\n"}
+				else {x+="\""+obj[i].replace(/\"/g,"\\\"").replace(/\n/g,"\\n").replace(/\t/g,"\\t").replace(/\r/g,"\\r")+"\",\n"}
 			}
 		};
 		if (obj.sort){x+="],\n"} else {x+="},\n"};

@@ -1,11 +1,20 @@
-<script src='http://code.jquery.com/jquery-latest.js'></script>
-<script src='../javascript/xml2json.js'></script>
-<body>
-<form>
-    <input id='iptxml' size='80'></input>
-    <a id='convert'>convert</a>
-    <form>
-        <textarea id='outjson' rows=10 cols=20></textarea>
+<html>
+    <head>
+        <script src='http://code.jquery.com/jquery-latest.js'></script>
+        <script src='../javascript/xml2json.js'></script>
+        <script src='../javascript/jquery.tweets.0.1.js'></script>
+    </head>
+    <body>
+
+
+        <div id='tweetscontainer'>
+            <ul id='tweets'>loading...</ul>
+        </div>
+        <form>
+            <input id='iptxml' size='80'></input>
+            <a id='convert'>convert</a>
+            <textarea id='outjson' rows=10 cols=80></textarea>
+        </form>
         <script>
             $(document).ready(function(){
 
@@ -16,6 +25,13 @@
                     outjson[0].value=xml2json.show_json_structure(xml2json.parser(iptxml[0].value));
                 });
 
+
+                $('#tweets').tweets({
+                    tweets:14,
+                    username: "rogeraaut"
+                });
+
             });
         </script>
     </body>
+</html>
