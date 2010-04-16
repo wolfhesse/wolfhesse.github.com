@@ -1,3 +1,9 @@
 body {
     background-color: #eeeedd;
+    color:red;
+}
+
+div {
+    background-color: red;
+    color: yellow;
 }
