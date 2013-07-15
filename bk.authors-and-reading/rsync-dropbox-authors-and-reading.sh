@@ -1,1 +1,1 @@
-rsync -rv output /home/rogera/Dropbox/Public/scribe-d/authors-and-reading
+rsync -rv output /home/rogera/Dropbox/Public/scribe-d/bk.authors-and-reading

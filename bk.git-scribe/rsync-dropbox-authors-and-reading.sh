@@ -1,2 +1,2 @@
-rsync -rv output /home/rogera/Dropbox/Public/scribe-d/git-scribe
+rsync -rv output /home/rogera/Dropbox/Public/scribe-d/bk.git-scribe
 
