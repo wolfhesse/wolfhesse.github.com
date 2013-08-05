@@ -1,9 +1,7 @@
 node_modules
 temp
-dist
+rogera-no-dist
 .sass-cache
 *.swp
 .tmp
 app/bower_components
-
-.idea
