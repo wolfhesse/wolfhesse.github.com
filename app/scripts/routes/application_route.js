@@ -3,6 +3,6 @@ EmberDemo2Environment.ApplicationRoute = Ember.Route.extend({
     // top level ApplicationRoute; we're in transition... :-)
     model: function () {
 
-        return ['red', 'yellow', 'black', 'blue', 'orange'];
+        return ['fukushima', 'yellow', 'black', 'blue', 'orange'];
     }
 });

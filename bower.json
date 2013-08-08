@@ -1,5 +1,5 @@
 {
-  "name": "ember-demo2-environment",
+  "name": "rdemo-ember-demo2-environment",
   "version": "0.0.0",
   "dependencies": {
     "jquery": "~1.9.1",
