@@ -1,7 +1,6 @@
+### ruby, rvm, ruby on rails
 
-# ruby on rails
-
-# too much java lately ;)
+#### too much java lately ;)
 
 ``` ruby
 
