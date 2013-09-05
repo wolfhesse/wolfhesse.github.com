@@ -25,6 +25,7 @@ def backlinks_under_version_control_so_check_back_from_time_to_time() # // {
     :answer => { :links => [
 
         { :link => 'https://www.facebook.com/pages/Meinmy-ror-problem/238721392817171', :instanceof => URI.encode( :url.to_s ) },
+        { :link => 'sample', :prepared => :nope, :valid_until => '20130905', :last_checked => '20130905' },
         { :link => 'sample', :prepared => :nope, :valid_until => '20130905', :last_checked => '20130905' }
 
         ] }
