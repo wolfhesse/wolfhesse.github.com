@@ -1,7 +1,6 @@
+### ruby, rvm, ruby on rails
 
-# ruby on rails
-
-# too much java lately ;)
+#### too much java lately ;)
 
 ``` ruby
 
@@ -12,7 +11,13 @@ def expect() # // {
 
 # // }
 end
+```
 
+markdown .here, also ein [link](https://www.facebook.com/pages/Meinmy-ror-problem/238721392817171) zur fb.pg
+
+``` ruby
+
+# Caller:node.backlin...
 def backlinks_under_version_control_so_check_back_from_time_to_time() # // {
 
     # return
@@ -20,6 +25,7 @@ def backlinks_under_version_control_so_check_back_from_time_to_time() # // {
     :answer => { :links => [
 
         { :link => 'https://www.facebook.com/pages/Meinmy-ror-problem/238721392817171', :instanceof => URI.encode( :url.to_s ) },
+        { :link => 'sample', :prepared => :nope, :valid_until => '20130905', :last_checked => '20130905' },
         { :link => 'sample', :prepared => :nope, :valid_until => '20130905', :last_checked => '20130905' }
 
         ] }
@@ -27,6 +33,12 @@ def backlinks_under_version_control_so_check_back_from_time_to_time() # // {
 
 # // }
 end
+
+```
+
+``` python
+
+print 'zdl.'
 
 ```
 
