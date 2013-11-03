@@ -1,3 +1,11 @@
+---
+layout: page
+title: tsunami
+date: 2013/1/1
+categories: data tsunami
+---
+####json fragment
+{{% highligh json %}}
             "item_url":("http://laughingsquid.com/lone-miracle-pine-that-survived-tohoku-earthquake-tsunami-recreated-as-permanent-monument/")
             "item_url":("http://inhabitat.feedsportal.com/c/34923/f/648037/s/297bf299/l/0Linhabitat0N0Cmiracle0Epine0Etree0Ejapanese0Etown0Ememorializes0Ethe0Eonly0Etree0Eto0Esurvive0E20A110Etsunami0C/story01.htm")
             "item_url":("http://www.israelherald.com/index.php/sid/213159006/scat/c08dd24cec417021")
@@ -38,3 +46,4 @@
             "item_url":("http://feedproxy.google.com/~r/lavanguardia/internacional/~3/fkhoDmayXrM/story01.htm")
             "item_url":("http://www.israelherald.com/index.php/sid/213128618/scat/c08dd24cec417021")
             "item_url":("http://videos.lainformacion.com/interes-humano/sociedad/dos-anos-del-terremoto-tsunami-y-crisis-nuclear-en-japon_ThXJrDo3y7a8psENGmqwV/")
+{{% endhighlight %}}

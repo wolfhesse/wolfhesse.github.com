@@ -1,4 +1,9 @@
-
+---
+layout: page
+title: software development process
+date: 2013/1/1
+categories: infopool tbd
+---
 ###software-generation
 
 strat-axis:code-generator

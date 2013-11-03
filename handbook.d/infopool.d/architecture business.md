@@ -1,8 +1,8 @@
 ---
 layout: page
-title: architecture
+title: architecture business
 date: 2013/1/1
-categories: infopool
+categories: infopool tbd
 ---
 
 ### architectures
