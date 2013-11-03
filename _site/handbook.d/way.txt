@@ -1,0 +1,15 @@
+LTP
+
+
+
+MTP
+
+	security: accounts recollection, hardening
+	installed systems: 7d-shipment-rule
+		make self-contained
+
+
+STP ... weeklies on pad
+
+
+USTP ... daylies on pad

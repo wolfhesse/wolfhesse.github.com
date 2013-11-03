@@ -1,0 +1,1 @@
+{:countries_sym_a=>[:austria, :belgium, :croatia, :czech_republic, :denmark, :finland, :france, :germany, :greece, :hungary, :italy, :liechtenstein, :luxembourg, :malta, :netherlands, :norway, :portugal, :slovenia, :spain, :sweden, :switzerland, :united_kingdom]}
