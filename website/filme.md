@@ -1,8 +1,6 @@
 ---
-date: now
----
-
-filme
+date: 2013-11-03
+title: filme
 ---
 
 

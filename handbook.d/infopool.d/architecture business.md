@@ -1,4 +1,9 @@
-
+---
+layout: page
+title: architecture
+date: 2013/1/1
+categories: infopool
+---
 
 ### architectures
 
