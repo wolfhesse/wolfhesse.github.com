@@ -1,3 +1,9 @@
+---
+layout: page
+title: hub myrorproblem
+date: 2013/11/04
+---
+
 ### ruby, rvm, ruby on rails
 
 #### too much java lately ;)
