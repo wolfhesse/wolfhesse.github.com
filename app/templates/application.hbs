@@ -21,7 +21,8 @@
                         <strong>Colors</strong>
                         <ul class="list-group">
                             {{#each item in controller}}
-                                <li class="list-group-item">{{item}}</li>
+                                <li class="list-group-item">{{item}}<br />
+                                {{#link-to item}}{{item}}{{/link-to}}</li>
                             {{/each}}
                         </ul>
                         {{#link-to "about"}}About{{/link-to}}<br/>
