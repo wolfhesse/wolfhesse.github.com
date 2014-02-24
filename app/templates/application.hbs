@@ -7,8 +7,8 @@
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
             </button>
-            <a class="navbar-brand" href="#">Your App</a>
-            {{#link-to "index"}}Home{{/link-to}}
+            <p><a class="navbar-brand" href="#">Your App</a></p>
+            <p class="navbar-brand">{{#link-to "index"}}Home{{/link-to}}</p>
         </div>
         <div class="collapse navbar-collapse navbar-ex1-collapse">
         </div>
@@ -20,13 +20,13 @@
                     <div class="well sidebar-nav">
                         <strong>Colors</strong>
                         <ul class="list-group">
-                        {{#each item in controller}}
-                            <li class="list-group-item">{{item}}</li>
-                        {{/each}}
+                            {{#each item in controller}}
+                                <li class="list-group-item">{{item}}</li>
+                            {{/each}}
                         </ul>
-                        {{#link-to "about"}}About{{/link-to}}<br />
-                        ---<br />
-                        {{#link-to "r2kd805"}}r2kd805{{/link-to}}<br />
+                        {{#link-to "about"}}About{{/link-to}}<br/>
+                        ---<br/>
+                        {{#link-to "r2kd805"}}r2kd805{{/link-to}}<br/>
                     </div>
                 </div>
                 <div class="col-md-9">
