@@ -1,0 +1,100 @@
+a { color: #2276bb; text-decoration: none; }
+
+a:hover { text-decoration: underline; }
+
+body {
+	background: #eee url(/static/bg_gradient.png) repeat-x fixed;
+	color: #333;
+	font-family: arial, san-serif;
+	font-size: 81.25%;
+	padding: 1em;
+}
+
+body {
+	background: #eee url(http://127.0.0.1/wolfhesse.github.com/static/bg_gradient.png) repeat-x fixed;
+}
+
+div { margin: 0 0 0 0; }
+
+div.about { margin: 25px 0 25px 0; width: 600px; }
+
+div.followbutton { margin-bottom: 25px; }
+
+div.homesearch { margin: 50px 0 0 100px; width: 450px; }
+
+div.search { }
+
+div.twerson { margin-right: 40px; width: 40em; }
+
+h1 { color: #246; font-size: 2.5em; }
+
+img { border-style: none; }
+
+img.twimage {
+	background: #fff;
+	border: 1px solid #2276bb;
+	display: block;
+	float: left;
+	margin: 0 10px 10px 0;
+	overflow: hidden;
+}
+
+input.inputbox { font-size: 1.1em; height: 20px; }
+
+input.searchbutton { font-size: 1.1em; height: 25px; }
+
+li { padding: 10px; }
+
+p.aboutth {
+	color: #246;
+	font-size: 0.8em;
+	margin-bottom: 10px;
+	text-align: left;
+}
+
+p.followerfinder { color: #246; }
+
+p.homeabout { margin-top: 25px; }
+
+p.homesearchline { font-weight: bold; margin-top: 25px; }
+
+p.nameloc { margin: 0 0 0 0; }
+
+p.noresults { margin-top: 25px; }
+
+p.resultsfor { font-size: 1.5em; margin-bottom: 0; }
+
+p.searchline { font-weight: bold; }
+
+p.th {
+	color: #246;
+	font-size: 3em;
+	margin: 20px 50px 0 0;
+	text-align: left;
+}
+
+p.tweet {
+	background: #fff;
+	border: 1px solid #999;
+	clear: left;
+	font-size: 1.2em;
+	margin-bottom: 5px;
+	padding: 8px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+}
+
+p.username { font-size: 2em; margin: 0 0 0 0; }
+
+span.twhen {
+	display: block;
+	color: #777;
+	font-size: 11px;
+	margin: 4px 0 0;
+}
+
+table { border: 0; }
+
+td { vertical-align: top; }
+
+td.more { font-size: 1.5em; text-align: center; }
