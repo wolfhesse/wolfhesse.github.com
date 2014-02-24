@@ -1,0 +1,1 @@
+!function(){window.EmberDemo2Environment=Ember.Application.create()}(),function(){EmberDemo2Environment.ApplicationRoute=Ember.Route.extend({model:function(){return["red","yellow","black","blue","orange"]}})}(),function(){EmberDemo2Environment.Router.map(function(){this.resource("about"),this.resource("r2kd805")})}();

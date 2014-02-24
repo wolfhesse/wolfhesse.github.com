@@ -1,7 +1,6 @@
-// Generated on 2013-08-07 using generator-ember 0.5.10
+// Generated on 2013-08-04 using generator-ember 0.5.9
 'use strict';
-var LIVERELOAD_PORT = 35729;
-var lrSnippet = require('connect-livereload')({port: LIVERELOAD_PORT});
+var lrSnippet = require('grunt-contrib-livereload/lib/utils').livereloadSnippet;
 var mountFolder = function (connect, dir) {
     return connect.static(require('path').resolve(dir));
 };
@@ -27,7 +26,7 @@ module.exports = function (grunt) {
         watch: {
             emberTemplates: {
                 files: '<%= yeoman.app %>/templates/**/*.hbs',
-                tasks: ['emberTemplates']
+                tasks: ['emberTemplates', 'livereload']
             },
             coffee: {
                 files: ['<%= yeoman.app %>/scripts/{,*/}*.coffee'],
@@ -43,24 +42,22 @@ module.exports = function (grunt) {
             },
             neuter: {
                 files: ['<%= yeoman.app %>/scripts/{,*/}*.js'],
-                tasks: ['neuter']
+                tasks: ['neuter', 'livereload']
             },
             livereload: {
-                options: {
-                    livereload: LIVERELOAD_PORT
-                },
                 files: [
-                    '.tmp/scripts/*.js',
                     '<%= yeoman.app %>/*.html',
                     '{.tmp,<%= yeoman.app %>}/styles/{,*/}*.css',
                     '<%= yeoman.app %>/images/{,*/}*.{png,jpg,jpeg,gif,webp,svg}'
-                ]
+                ],
+                tasks: ['livereload']
             }
         },
         connect: {
             options: {
                 port: 9000,
                 // change this to '0.0.0.0' to access the server from outside
+                // hostname: 'localhost'
                 hostname: '0.0.0.0'
             },
             livereload: {
@@ -69,7 +66,7 @@ module.exports = function (grunt) {
                         return [
                             lrSnippet,
                             mountFolder(connect, '.tmp'),
-                            mountFolder(connect, yeomanConfig.app)
+                            mountFolder(connect, 'app')
                         ];
                     }
                 }
@@ -88,7 +85,7 @@ module.exports = function (grunt) {
                 options: {
                     middleware: function (connect) {
                         return [
-                            mountFolder(connect, yeomanConfig.dist)
+                            mountFolder(connect, 'dist')
                         ];
                     }
                 }
@@ -327,6 +324,8 @@ module.exports = function (grunt) {
         }
     });
 
+    grunt.renameTask('regarde', 'watch');
+
     grunt.registerTask('server', function (target) {
         if (target === 'dist') {
             return grunt.task.run(['build', 'open', 'connect:dist:keepalive']);
@@ -336,6 +335,7 @@ module.exports = function (grunt) {
             'clean:server',
             'concurrent:server',
             'neuter:app',
+            'livereload-start',
             'connect:livereload',
             'open',
             'watch'

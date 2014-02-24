@@ -1,5 +1,5 @@
 {
-  "name": "rdemo-ember-demo2-environment",
+  "name": "ember-demo2-environment",
   "version": "0.0.0",
   "dependencies": {},
   "devDependencies": {
@@ -15,17 +15,17 @@
     "grunt-contrib-clean": "~0.4.0",
     "grunt-contrib-htmlmin": "~0.1.3",
     "grunt-contrib-imagemin": "~0.1.3",
-    "grunt-contrib-watch": "~0.4.0",
+    "grunt-contrib-livereload": "~0.1.2",
     "grunt-rev": "~0.1.0",
     "grunt-usemin": "~0.1.10",
+    "grunt-regarde": "~0.1.1",
     "grunt-mocha": "~0.3.0",
     "grunt-open": "~0.2.0",
     "grunt-svgmin": "~0.1.0",
     "grunt-concurrent": "~0.1.0",
     "matchdep": "~0.1.1",
-    "connect-livereload": "~0.2.0",
     "grunt-ember-templates": "0.4.7",
-    "grunt-neuter": "~0.5.0"
+    "grunt-neuter": "0.5.0"
   },
   "engines": {
     "node": ">=0.8.0"

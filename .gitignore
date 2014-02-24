@@ -5,3 +5,5 @@ rogera-no-dist
 *.swp
 .tmp
 app/bower_components
+
+.idea/

@@ -12,13 +12,6 @@
     "noarg": true,
     "undef": true,
     "strict": false,
-    "trailing": false,
-    "smarttabs": true,
-    "globals": {
-        "EmberDemo2Environment": true,
-        "jQuery": true,
-        "Ember": true,
-        "Handlebars": true,
-        "DS": true
-    }
+    "trailing": true,
+    "smarttabs": true
 }
