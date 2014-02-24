@@ -1,8 +1,15 @@
-var EmberDemo2Environment = window.EmberDemo2Environment = Ember.Application.create();
+var NdEmberDemo3D = window.NdEmberDemo3D = Ember.Application.create(
+    {
+        LOG_TRANSITIONS: true
+    }
+);
+
+
 
 /* Order and include as you please. */
-require('scripts/routes/*');
 require('scripts/controllers/*');
+require('scripts/store');
 require('scripts/models/*');
+require('scripts/routes/*');
 require('scripts/views/*');
 require('scripts/router');

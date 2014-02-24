@@ -1,28 +1,31 @@
 <div>
-    <div class="navbar navbar-fixed-top">
-        <div class="navbar-inner">
-            <div class="container-fluid">
-                <div class="brand">
-                    for Your App
-                </div>
-            </div>
+    <nav class="navbar navbar-default navbar-fixed-top" role="navigation">
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="#">Your App</a>
         </div>
-    </div>
-    <div class="container-fluid" id="main">
-        <div class="row-fluid">
+        <div class="collapse navbar-collapse navbar-ex1-collapse">
+        </div>
+    </nav>
+    <div class="container" id="main">
+        <div class="row">
             <div>
-                <div class="span3">
+                <div class="col-md-3">
                     <div class="well sidebar-nav">
-                        {{#linkTo 'index'}}Index{{/linkTo}}
-                        <span class="nav-header">Colors</span>
-                        <ul class="nav nav-list">
-                            {{#each item in controller}}
-                                <li>{{item}}</li>
-                            {{/each}}
+                        <strong>Colors</strong>
+                        <ul class="list-group">
+                        {{#each item in controller}}
+                            <li class="list-group-item">{{item}}</li>
+                        {{/each}}
                         </ul>
                     </div>
                 </div>
-                <div class="span9">
+                <div class="col-md-9">
                     {{outlet}}
                 </div>
             </div>
