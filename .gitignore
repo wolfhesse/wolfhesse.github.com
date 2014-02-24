@@ -2,3 +2,10 @@
 .project
 _site/
 /nbproject/private/
+node_modules
+temp
+dist
+.sass-cache
+.tmp
+app/bower_components
+
