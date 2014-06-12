@@ -11,6 +11,7 @@
 }
 
 html { overflow-y: scroll; }
+html, body { height: 100%; }
 
 body {
   background-color: #FFF;
