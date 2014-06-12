@@ -1,8 +1,7 @@
 NdEmberDemo3D.Router.reopen({
     rootURL: '/demo3/',
     enableLogging: true,
-    location: 'history',
-    location: 'hash'
+    location: 'history'
 });
 NdEmberDemo3D.Router.map(function () {
     this.resource('about');
