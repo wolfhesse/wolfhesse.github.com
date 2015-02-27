@@ -1,4 +1,9 @@
 
+###kleine uebung
+
+[find me here](http://ipy.wolfspool.chickenkiller.com:18888/8d549840-101e-4c76
+-94cd-b3b77e3e2cf5#)
+
 
     1
 
@@ -163,6 +168,49 @@ ein wenig ruby
 
     %%bash
     
+    ipython nbconvert --to markdown /home/rogera/proj/interactive.here.d/interactive.r20150227.001.ipynb
+    ls
+
+    CHANGES
+    code.d
+    danger-of-freedom-patches.d
+    data.d
+    doc
+    [docker] local management.ipynb
+    Gemfile
+    Gemfile.lock
+    interactive.here.sublime-project
+    interactive.here.sublime-workspace
+    interactive.r20150227.001_files
+    interactive.r20150227.001.ipynb
+    interactive.r20150227.001.md
+    lang.py.d
+    lang.rb.d
+    [local] git flow stuff.ipynb
+    logged in.ipynb
+    mongo.d
+    [nginx] MAS .ipynb
+    node_modules
+    [ops] ipython notebook.ipynb
+    package.json
+    rdftest
+    src
+    test
+    venv
+    VERSION
+
+
+    [NbConvertApp] Using existing profile dir: u'/home/rogera/.config/ipython/profile_default'
+    [NbConvertApp] Converting notebook /home/rogera/proj/interactive.here.d/interactive.r20150227.001.ipynb to markdown
+    [NbConvertApp] Support files will be in interactive.r20150227.001_files/
+    [NbConvertApp] Loaded template markdown.tpl
+    [NbConvertApp] Making directory interactive.r20150227.001_files
+    [NbConvertApp] Writing 4921 bytes to interactive.r20150227.001.md
+
+
+
+    %%bash
+    
     ipython nbconvert --to html /home/rogera/proj/interactive.here.d/interactive.r20150227.001.ipynb
     ls
 
@@ -176,8 +224,10 @@ ein wenig ruby
     Gemfile.lock
     interactive.here.sublime-project
     interactive.here.sublime-workspace
+    interactive.r20150227.001_files
     interactive.r20150227.001.html
     interactive.r20150227.001.ipynb
+    interactive.r20150227.001.md
     lang.py.d
     lang.rb.d
     [local] git flow stuff.ipynb
@@ -198,7 +248,7 @@ ein wenig ruby
     [NbConvertApp] Converting notebook /home/rogera/proj/interactive.here.d/interactive.r20150227.001.ipynb to html
     [NbConvertApp] Support files will be in interactive.r20150227.001_files/
     [NbConvertApp] Loaded template html_full.tpl
-    [NbConvertApp] Writing 184836 bytes to interactive.r20150227.001.html
+    [NbConvertApp] Writing 185011 bytes to interactive.r20150227.001.html
 
 
 ```
@@ -216,10 +266,16 @@ now move the file to...
 
 
 
-    !rm /home/rogera/knowlab/wolfhesse.github.io/static/interactive.r20150227.001.html
+    !rm -r /home/rogera/knowlab/wolfhesse.github.io/static/interactive.r20150227.001.*
 
 
     !mv interactive.r20150227.001.html /home/rogera/knowlab/wolfhesse.github.io/static/
+    !mv interactive.r20150227.001.md /home/rogera/knowlab/wolfhesse.github.io/static/
+    !mv interactive.r20150227.001_files /home/rogera/knowlab/wolfhesse.github.io/static/
+
+    mv: cannot stat ‘interactive.r20150227.001.html’: No such file or directory
+    mv: cannot stat ‘interactive.r20150227.001_files’: No such file or directory
+
 
 
     %%bash
@@ -231,22 +287,18 @@ now move the file to...
     
     cd -
 
-    [master 583082b] interactive.r20150227.001 gen
-     1 file changed, 105 insertions(+), 16 deletions(-)
+    [master af8d762] interactive.r20150227.001 gen
+     1 file changed, 263 insertions(+)
+     create mode 100644 static/interactive.r20150227.001.md
     /home/rogera/proj/interactive.here.d
 
 
-    warning: CRLF will be replaced by LF in static/interactive.r20150227.001.html.
+    warning: CRLF will be replaced by LF in static/interactive.r20150227.001.md.
     The file will have its original line endings in your working directory.
-    warning: CRLF will be replaced by LF in static/interactive.r20150227.001.html.
+    warning: CRLF will be replaced by LF in static/interactive.r20150227.001.md.
     The file will have its original line endings in your working directory.
-    warning: CRLF will be replaced by LF in static/interactive.r20150227.001.html.
-    The file will have its original line endings in your working directory.
-    warning: CRLF will be replaced by LF in static/interactive.r20150227.001.html.
-    The file will have its original line endings in your working directory.
-    Warning: Permanently added the RSA host key for IP address '192.30.252.131' to the list of known hosts.
     To git@github.com:wolfhesse/wolfhesse.github.com.git
-       3db6ac5..583082b  master -> master
+       49c3a00..af8d762  master -> master
 
 
 

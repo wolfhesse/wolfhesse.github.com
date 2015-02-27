@@ -1526,6 +1526,10 @@ init_mathjax();
 </head>
 <body>
 
+<div class="text_cell_render border-box-sizing rendered_html">
+<h3 id="kleine-uebung">kleine uebung</h3>
+<p><a href="http://ipy.wolfspool.chickenkiller.com:18888/8d549840-101e-4c76-94cd-b3b77e3e2cf5#">find me here</a></p>
+</div>
 <div class="cell border-box-sizing code_cell vbox">
 <div class="input hbox">
 <div class="prompt input_prompt">
@@ -2005,7 +2009,78 @@ test-unit (3.0.9)
 <div class="cell border-box-sizing code_cell vbox">
 <div class="input hbox">
 <div class="prompt input_prompt">
-In&nbsp;[25]:
+In&nbsp;[31]:
+</div>
+<div class="input_area box-flex1">
+<div class="highlight"><pre><span class="o">%%</span><span class="k">bash</span>
+<span class="n">ipython</span> <span class="n">nbconvert</span> <span class="o">--</span><span class="n">to</span> <span class="n">markdown</span> <span class="o">/</span><span class="n">home</span><span class="o">/</span><span class="n">rogera</span><span class="o">/</span><span class="n">proj</span><span class="o">/</span><span class="n">interactive</span><span class="o">.</span><span class="n">here</span><span class="o">.</span><span class="n">d</span><span class="o">/</span><span class="n">interactive</span><span class="o">.</span><span class="n">r20150227</span><span class="o">.</span><span class="mf">001.</span><span class="n">ipynb</span>
+<span class="n">ls</span>
+</pre></div>
+
+</div>
+</div>
+
+<div class="vbox output_wrapper">
+<div class="output vbox">
+
+
+<div class="hbox output_area"><div class="prompt"></div>
+<div class="box-flex1 output_subarea output_stream output_stdout">
+<pre>
+CHANGES
+code.d
+danger-of-freedom-patches.d
+data.d
+doc
+[docker] local management.ipynb
+Gemfile
+Gemfile.lock
+interactive.here.sublime-project
+interactive.here.sublime-workspace
+interactive.r20150227.001_files
+interactive.r20150227.001.ipynb
+interactive.r20150227.001.md
+lang.py.d
+lang.rb.d
+[local] git flow stuff.ipynb
+logged in.ipynb
+mongo.d
+[nginx] MAS .ipynb
+node_modules
+[ops] ipython notebook.ipynb
+package.json
+rdftest
+src
+test
+venv
+VERSION
+
+</pre>
+</div>
+</div>
+
+<div class="hbox output_area"><div class="prompt"></div>
+<div class="box-flex1 output_subarea output_stream output_stderr">
+<pre>
+[NbConvertApp] Using existing profile dir: u&apos;/home/rogera/.config/ipython/profile_default&apos;
+[NbConvertApp] Converting notebook /home/rogera/proj/interactive.here.d/interactive.r20150227.001.ipynb to markdown
+[NbConvertApp] Support files will be in interactive.r20150227.001_files/
+[NbConvertApp] Loaded template markdown.tpl
+[NbConvertApp] Making directory interactive.r20150227.001_files
+[NbConvertApp] Writing 4921 bytes to interactive.r20150227.001.md
+
+</pre>
+</div>
+</div>
+
+</div>
+</div>
+
+</div>
+<div class="cell border-box-sizing code_cell vbox">
+<div class="input hbox">
+<div class="prompt input_prompt">
+In&nbsp;[32]:
 </div>
 <div class="input_area box-flex1">
 <div class="highlight"><pre><span class="o">%%</span><span class="k">bash</span>
@@ -2033,8 +2108,10 @@ Gemfile
 Gemfile.lock
 interactive.here.sublime-project
 interactive.here.sublime-workspace
+interactive.r20150227.001_files
 interactive.r20150227.001.html
 interactive.r20150227.001.ipynb
+interactive.r20150227.001.md
 lang.py.d
 lang.rb.d
 [local] git flow stuff.ipynb
@@ -2061,7 +2138,7 @@ VERSION
 [NbConvertApp] Converting notebook /home/rogera/proj/interactive.here.d/interactive.r20150227.001.ipynb to html
 [NbConvertApp] Support files will be in interactive.r20150227.001_files/
 [NbConvertApp] Loaded template html_full.tpl
-[NbConvertApp] Writing 184836 bytes to interactive.r20150227.001.html
+[NbConvertApp] Writing 185011 bytes to interactive.r20150227.001.html
 
 </pre>
 </div>
@@ -2110,10 +2187,10 @@ r20130724.1.html
 <div class="cell border-box-sizing code_cell vbox">
 <div class="input hbox">
 <div class="prompt input_prompt">
-In&nbsp;[27]:
+In&nbsp;[33]:
 </div>
 <div class="input_area box-flex1">
-<div class="highlight"><pre><span class="o">!</span>rm /home/rogera/knowlab/wolfhesse.github.io/static/interactive.r20150227.001.html
+<div class="highlight"><pre><span class="o">!</span>rm -r /home/rogera/knowlab/wolfhesse.github.io/static/interactive.r20150227.001.*
 </pre></div>
 
 </div>
@@ -2123,11 +2200,30 @@ In&nbsp;[27]:
 <div class="cell border-box-sizing code_cell vbox">
 <div class="input hbox">
 <div class="prompt input_prompt">
-In&nbsp;[28]:
+In&nbsp;[37]:
 </div>
 <div class="input_area box-flex1">
 <div class="highlight"><pre><span class="o">!</span>mv interactive.r20150227.001.html /home/rogera/knowlab/wolfhesse.github.io/static/
+<span class="o">!</span>mv interactive.r20150227.001.md /home/rogera/knowlab/wolfhesse.github.io/static/
+<span class="o">!</span>mv interactive.r20150227.001_files /home/rogera/knowlab/wolfhesse.github.io/static/
 </pre></div>
+
+</div>
+</div>
+
+<div class="vbox output_wrapper">
+<div class="output vbox">
+
+
+<div class="hbox output_area"><div class="prompt"></div>
+<div class="box-flex1 output_subarea output_stream output_stdout">
+<pre>
+mv: cannot stat ‘interactive.r20150227.001.html’: No such file or directory
+mv: cannot stat ‘interactive.r20150227.001_files’: No such file or directory
+
+</pre>
+</div>
+</div>
 
 </div>
 </div>
@@ -2136,7 +2232,7 @@ In&nbsp;[28]:
 <div class="cell border-box-sizing code_cell vbox">
 <div class="input hbox">
 <div class="prompt input_prompt">
-In&nbsp;[29]:
+In&nbsp;[38]:
 </div>
 <div class="input_area box-flex1">
 <div class="highlight"><pre><span class="o">%%</span><span class="k">bash</span>
@@ -2158,8 +2254,9 @@ In&nbsp;[29]:
 <div class="hbox output_area"><div class="prompt"></div>
 <div class="box-flex1 output_subarea output_stream output_stdout">
 <pre>
-[master 583082b] interactive.r20150227.001 gen
- 1 file changed, 105 insertions(+), 16 deletions(-)
+[master af8d762] interactive.r20150227.001 gen
+ 1 file changed, 263 insertions(+)
+ create mode 100644 static/interactive.r20150227.001.md
 /home/rogera/proj/interactive.here.d
 
 </pre>
@@ -2169,17 +2266,12 @@ In&nbsp;[29]:
 <div class="hbox output_area"><div class="prompt"></div>
 <div class="box-flex1 output_subarea output_stream output_stderr">
 <pre>
-warning: CRLF will be replaced by LF in static/interactive.r20150227.001.html.
+warning: CRLF will be replaced by LF in static/interactive.r20150227.001.md.
 The file will have its original line endings in your working directory.
-warning: CRLF will be replaced by LF in static/interactive.r20150227.001.html.
+warning: CRLF will be replaced by LF in static/interactive.r20150227.001.md.
 The file will have its original line endings in your working directory.
-warning: CRLF will be replaced by LF in static/interactive.r20150227.001.html.
-The file will have its original line endings in your working directory.
-warning: CRLF will be replaced by LF in static/interactive.r20150227.001.html.
-The file will have its original line endings in your working directory.
-Warning: Permanently added the RSA host key for IP address &apos;192.30.252.131&apos; to the list of known hosts.
 To git@github.com:wolfhesse/wolfhesse.github.com.git
-   3db6ac5..583082b  master -&gt; master
+   49c3a00..af8d762  master -&gt; master
 
 </pre>
 </div>
@@ -2192,7 +2284,7 @@ To git@github.com:wolfhesse/wolfhesse.github.com.git
 <div class="cell border-box-sizing code_cell vbox">
 <div class="input hbox">
 <div class="prompt input_prompt">
-In&nbsp;[30]:
+In&nbsp;[35]:
 </div>
 <div class="input_area box-flex1">
 <div class="highlight"><pre><span class="n">pwd</span>
@@ -2206,7 +2298,7 @@ In&nbsp;[30]:
 
 
 <div class="hbox output_area"><div class="prompt output_prompt">
-    Out[30]:</div>
+    Out[35]:</div>
 <div class="box-flex1 output_subarea output_pyout">
 
 
