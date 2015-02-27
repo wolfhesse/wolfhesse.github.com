@@ -10,7 +10,9 @@ b3b77e3e2cf5#)
 ----
 bitly.com 2t rescue , 2ter versuch also
 
-[find me here](bit.ly/interactive-r20150227-001)
+[find me here](http://bit.ly/interactive-r20150227-001)
+
+[get stats](http://bit.ly/interactive-r20150227-001+)
 
 
 ----
@@ -141,7 +143,7 @@ ein wenig ruby
     require('date')
     puts DateTime.now
 
-    2015-02-27T19:36:19+01:00
+    2015-02-27T19:42:52+01:00
 
 
 
@@ -216,7 +218,7 @@ ein wenig ruby
     [NbConvertApp] Converting notebook /home/rogera/proj/interactive.here.d/interactive.r20150227.001.ipynb to markdown
     [NbConvertApp] Support files will be in interactive.r20150227.001_files/
     [NbConvertApp] Loaded template markdown.tpl
-    [NbConvertApp] Writing 6948 bytes to interactive.r20150227.001.md
+    [NbConvertApp] Writing 7033 bytes to interactive.r20150227.001.md
 
 
 
@@ -259,7 +261,7 @@ ein wenig ruby
     [NbConvertApp] Converting notebook /home/rogera/proj/interactive.here.d/interactive.r20150227.001.ipynb to html
     [NbConvertApp] Support files will be in interactive.r20150227.001_files/
     [NbConvertApp] Loaded template html_full.tpl
-    [NbConvertApp] Writing 188479 bytes to interactive.r20150227.001.html
+    [NbConvertApp] Writing 188719 bytes to interactive.r20150227.001.html
 
 
 ```
@@ -299,14 +301,16 @@ now move the file to...
     
     cd -
 
-    [master b4b9572] interactive.r20150227.001 gen
-     2 files changed, 65 insertions(+), 47 deletions(-)
+    [master 7e0dc0b] interactive.r20150227.001 gen
+     2 files changed, 60 insertions(+), 40 deletions(-)
     /home/rogera/proj/interactive.here.d
 
 
     warning: CRLF will be replaced by LF in static/interactive.r20150227.001.html.
     The file will have its original line endings in your working directory.
     warning: CRLF will be replaced by LF in static/interactive.r20150227.001.md.
+    The file will have its original line endings in your working directory.
+    warning: CRLF will be replaced by LF in static/interactive.r20150227.001.html.
     The file will have its original line endings in your working directory.
     warning: CRLF will be replaced by LF in static/interactive.r20150227.001.html.
     The file will have its original line endings in your working directory.
@@ -317,7 +321,7 @@ now move the file to...
     warning: CRLF will be replaced by LF in static/interactive.r20150227.001.md.
     The file will have its original line endings in your working directory.
     To git@github.com:wolfhesse/wolfhesse.github.com.git
-       b30477d..b4b9572  master -> master
+       b4b9572..7e0dc0b  master -> master
 
 
 
