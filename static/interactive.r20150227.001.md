@@ -1,8 +1,10 @@
 
 ###kleine uebung
 
-[find me here](http://ipy.wolfspool.chickenkiller.com:18888/8d549840-101e-4c76
--94cd-b3b77e3e2cf5#)
+(wegen eines problems mit dem zeilenumbruch..)
+[find me here]
+(http://ipy.wolfspool.chickenkiller.com:18888/8d549840-101e-4c76-94cd-
+b3b77e3e2cf5#)
 
 
     1
@@ -129,7 +131,7 @@ ein wenig ruby
     require('date')
     puts DateTime.now
 
-    2015-02-27T19:19:47+01:00
+    2015-02-27T19:31:04+01:00
 
 
 
@@ -205,7 +207,7 @@ ein wenig ruby
     [NbConvertApp] Support files will be in interactive.r20150227.001_files/
     [NbConvertApp] Loaded template markdown.tpl
     [NbConvertApp] Making directory interactive.r20150227.001_files
-    [NbConvertApp] Writing 4921 bytes to interactive.r20150227.001.md
+    [NbConvertApp] Writing 6226 bytes to interactive.r20150227.001.md
 
 
 
@@ -248,7 +250,7 @@ ein wenig ruby
     [NbConvertApp] Converting notebook /home/rogera/proj/interactive.here.d/interactive.r20150227.001.ipynb to html
     [NbConvertApp] Support files will be in interactive.r20150227.001_files/
     [NbConvertApp] Loaded template html_full.tpl
-    [NbConvertApp] Writing 185011 bytes to interactive.r20150227.001.html
+    [NbConvertApp] Writing 187773 bytes to interactive.r20150227.001.html
 
 
 ```
@@ -261,7 +263,9 @@ now move the file to...
     ls /home/rogera/knowlab/wolfhesse.github.io/static/
 
     [0m[01;35mbg_gradient.png[0m
+    [01;34minteractive.r20150227.001_files[0m/
     interactive.r20150227.001.html
+    interactive.r20150227.001.md
     r20130724.1.html
 
 
@@ -273,8 +277,7 @@ now move the file to...
     !mv interactive.r20150227.001.md /home/rogera/knowlab/wolfhesse.github.io/static/
     !mv interactive.r20150227.001_files /home/rogera/knowlab/wolfhesse.github.io/static/
 
-    mv: cannot stat ‘interactive.r20150227.001.html’: No such file or directory
-    mv: cannot stat ‘interactive.r20150227.001_files’: No such file or directory
+    mv: cannot move ‘interactive.r20150227.001_files’ to ‘/home/rogera/knowlab/wolfhesse.github.io/static/interactive.r20150227.001_files’: Directory not empty
 
 
 
@@ -287,18 +290,25 @@ now move the file to...
     
     cd -
 
-    [master af8d762] interactive.r20150227.001 gen
-     1 file changed, 263 insertions(+)
-     create mode 100644 static/interactive.r20150227.001.md
+    [master b30477d] interactive.r20150227.001 gen
+     2 files changed, 174 insertions(+), 30 deletions(-)
     /home/rogera/proj/interactive.here.d
 
 
+    warning: CRLF will be replaced by LF in static/interactive.r20150227.001.html.
+    The file will have its original line endings in your working directory.
     warning: CRLF will be replaced by LF in static/interactive.r20150227.001.md.
+    The file will have its original line endings in your working directory.
+    warning: CRLF will be replaced by LF in static/interactive.r20150227.001.html.
+    The file will have its original line endings in your working directory.
+    warning: CRLF will be replaced by LF in static/interactive.r20150227.001.md.
+    The file will have its original line endings in your working directory.
+    warning: CRLF will be replaced by LF in static/interactive.r20150227.001.html.
     The file will have its original line endings in your working directory.
     warning: CRLF will be replaced by LF in static/interactive.r20150227.001.md.
     The file will have its original line endings in your working directory.
     To git@github.com:wolfhesse/wolfhesse.github.com.git
-       49c3a00..af8d762  master -> master
+       af8d762..b30477d  master -> master
 
 
 
