@@ -1,3 +1,38 @@
-[0m[01;35mbg_gradient.png[0m
+Son Mär  1 17:13:07 CET 2015
+CHANGES
+code.d
+danger-of-freedom-patches.d
+data.d
+doc
+[docker] local management.ipynb
+Gemfile
+Gemfile.lock
+interactive.here.sublime-project
+interactive.here.sublime-workspace
+interactive.r20150227.001_files
 interactive.r20150227.001.html
-r20130724.1.html
+interactive.r20150227.001.ipynb
+interactive.r20150227.001.md
+lang.py.d
+lang.rb.d
+[local] git flow stuff.ipynb
+logged in.ipynb
+log.py
+mongo.d
+[nginx] MAS .ipynb
+node_modules
+[ops] ipython notebook.ipynb
+package.json
+rdftest
+scratchpad.ipynb
+src
+status.kerpen.sfe.tv_files
+status.kerpen.sfe.tv.html
+status.kerpen.sfe.tv.ipynb
+status.kerpen.sfe.tv.md
+sysarch.r20150227.0.ipynb
+sysarch.r20150227.0.slides.html
+test
+venv
+VERSION
+winbooks.d

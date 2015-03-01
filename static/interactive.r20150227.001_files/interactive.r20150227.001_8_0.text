@@ -1,1 +1,8 @@
-u'/home/rogera/proj/interactive.here.d/rdftest'
+{"_:hello": {
+    "http://purl.org/dc/terms/title": [
+        {
+            "type": "literal",
+            "value": "Hello, world!"
+        }
+    ]
+}}

@@ -39,32 +39,18 @@ bitly.com 2t rescue , 2ter versuch also
 
     ls
 
-    CHANGES
-    [0m[01;34mcode.d[0m/
-    [01;34mdanger-of-freedom-patches.d[0m/
-    [01;34mdata.d[0m/
-    [01;34mdoc[0m/
-    [docker] local management.ipynb
-    Gemfile
-    Gemfile.lock
-    interactive.here.sublime-project
-    interactive.here.sublime-workspace
-    [01;34minteractive.r20150227.001_files[0m/
-    interactive.r20150227.001.ipynb
-    [01;34mlang.py.d[0m/
-    [01;34mlang.rb.d[0m/
-    [local] git flow stuff.ipynb
-    logged in.ipynb
-    [01;34mmongo.d[0m/
-    [nginx] MAS .ipynb
-    [01;34mnode_modules[0m/
-    [ops] ipython notebook.ipynb
-    package.json
-    [01;34mrdftest[0m/
-    [01;34msrc[0m/
-    [01;34mtest[0m/
-    [01;34mvenv[0m/
-    VERSION
+    CHANGES                             [0m[01;34mlang.py.d[0m/                    [01;34msrc[0m/
+    [01;34mcode.d[0m/                             [01;34mlang.rb.d[0m/                    [01;34mstatus.kerpen.sfe.tv_files[0m/
+    [01;34mdanger-of-freedom-patches.d[0m/        [local] git flow stuff.ipynb  status.kerpen.sfe.tv.html
+    [01;34mdata.d[0m/                             logged in.ipynb               status.kerpen.sfe.tv.ipynb
+    [01;34mdoc[0m/                                log.py                        status.kerpen.sfe.tv.md
+    [docker] local management.ipynb     [01;34mmongo.d[0m/                      sysarch.r20150227.0.ipynb
+    Gemfile                             [nginx] MAS .ipynb            sysarch.r20150227.0.slides.html
+    Gemfile.lock                        [01;34mnode_modules[0m/                 [01;34mtest[0m/
+    interactive.here.sublime-project    [ops] ipython notebook.ipynb  [01;34mvenv[0m/
+    interactive.here.sublime-workspace  package.json                  VERSION
+    [01;34minteractive.r20150227.001_files[0m/    [01;34mrdftest[0m/                      [01;34mwinbooks.d[0m/
+    interactive.r20150227.001.ipynb     scratchpad.ipynb
 
 
 ### zeig dir ein paar sachen
@@ -143,7 +129,7 @@ ein wenig ruby
     require('date')
     puts DateTime.now
 
-    2015-02-27T19:42:52+01:00
+    2015-03-01T17:12:53+01:00
 
 
 
@@ -202,31 +188,41 @@ ein wenig ruby
     lang.rb.d
     [local] git flow stuff.ipynb
     logged in.ipynb
+    log.py
     mongo.d
     [nginx] MAS .ipynb
     node_modules
     [ops] ipython notebook.ipynb
     package.json
     rdftest
+    scratchpad.ipynb
     src
+    status.kerpen.sfe.tv_files
+    status.kerpen.sfe.tv.html
+    status.kerpen.sfe.tv.ipynb
+    status.kerpen.sfe.tv.md
+    sysarch.r20150227.0.ipynb
+    sysarch.r20150227.0.slides.html
     test
     venv
     VERSION
+    winbooks.d
 
 
     [NbConvertApp] Using existing profile dir: u'/home/rogera/.config/ipython/profile_default'
     [NbConvertApp] Converting notebook /home/rogera/proj/interactive.here.d/interactive.r20150227.001.ipynb to markdown
     [NbConvertApp] Support files will be in interactive.r20150227.001_files/
     [NbConvertApp] Loaded template markdown.tpl
-    [NbConvertApp] Writing 7033 bytes to interactive.r20150227.001.md
+    [NbConvertApp] Writing 7202 bytes to interactive.r20150227.001.md
 
 
 
     %%bash
-    
+    date
     ipython nbconvert --to html /home/rogera/proj/interactive.here.d/interactive.r20150227.001.ipynb
     ls
 
+    Son Mär  1 17:13:07 CET 2015
     CHANGES
     code.d
     danger-of-freedom-patches.d
@@ -245,23 +241,32 @@ ein wenig ruby
     lang.rb.d
     [local] git flow stuff.ipynb
     logged in.ipynb
+    log.py
     mongo.d
     [nginx] MAS .ipynb
     node_modules
     [ops] ipython notebook.ipynb
     package.json
     rdftest
+    scratchpad.ipynb
     src
+    status.kerpen.sfe.tv_files
+    status.kerpen.sfe.tv.html
+    status.kerpen.sfe.tv.ipynb
+    status.kerpen.sfe.tv.md
+    sysarch.r20150227.0.ipynb
+    sysarch.r20150227.0.slides.html
     test
     venv
     VERSION
+    winbooks.d
 
 
     [NbConvertApp] Using existing profile dir: u'/home/rogera/.config/ipython/profile_default'
     [NbConvertApp] Converting notebook /home/rogera/proj/interactive.here.d/interactive.r20150227.001.ipynb to html
     [NbConvertApp] Support files will be in interactive.r20150227.001_files/
     [NbConvertApp] Loaded template html_full.tpl
-    [NbConvertApp] Writing 188719 bytes to interactive.r20150227.001.html
+    [NbConvertApp] Writing 189757 bytes to interactive.r20150227.001.html
 
 
 ```
@@ -273,11 +278,8 @@ now move the file to...
 
     ls /home/rogera/knowlab/wolfhesse.github.io/static/
 
-    [0m[01;35mbg_gradient.png[0m
-    [01;34minteractive.r20150227.001_files[0m/
-    interactive.r20150227.001.html
-    interactive.r20150227.001.md
-    r20130724.1.html
+    [0m[01;35mbg_gradient.png[0m                   interactive.r20150227.001.html  r20130724.1.html
+    [01;34minteractive.r20150227.001_files[0m/  interactive.r20150227.001.md    [01;32mstatus.kerpen.sfe.tv.ipynb[0m*
 
 
 
@@ -301,16 +303,14 @@ now move the file to...
     
     cd -
 
-    [master 7e0dc0b] interactive.r20150227.001 gen
-     2 files changed, 60 insertions(+), 40 deletions(-)
+    [master 59e4201] interactive.r20150227.001 gen
+     2 files changed, 49 insertions(+), 40 deletions(-)
     /home/rogera/proj/interactive.here.d
 
 
     warning: CRLF will be replaced by LF in static/interactive.r20150227.001.html.
     The file will have its original line endings in your working directory.
     warning: CRLF will be replaced by LF in static/interactive.r20150227.001.md.
-    The file will have its original line endings in your working directory.
-    warning: CRLF will be replaced by LF in static/interactive.r20150227.001.html.
     The file will have its original line endings in your working directory.
     warning: CRLF will be replaced by LF in static/interactive.r20150227.001.html.
     The file will have its original line endings in your working directory.
@@ -321,7 +321,7 @@ now move the file to...
     warning: CRLF will be replaced by LF in static/interactive.r20150227.001.md.
     The file will have its original line endings in your working directory.
     To git@github.com:wolfhesse/wolfhesse.github.com.git
-       b4b9572..7e0dc0b  master -> master
+       7e0dc0b..59e4201  master -> master
 
 
 
@@ -332,6 +332,15 @@ now move the file to...
 
     u'/home/rogera/proj/interactive.here.d'
 
+
+
+#### java test
+
+
+    %%java
+    System.out.println("no");
+
+    ERROR: Cell magic `%%java` not found.
 
 
 

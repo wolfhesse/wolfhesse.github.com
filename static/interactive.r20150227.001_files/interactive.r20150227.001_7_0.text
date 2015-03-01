@@ -1,8 +1,1 @@
-{"_:hello": {
-    "http://purl.org/dc/terms/title": [
-        {
-            "type": "literal",
-            "value": "Hello, world!"
-        }
-    ]
-}}
+hello.json  hello.nt  hello.rb
