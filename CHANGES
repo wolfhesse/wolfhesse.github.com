@@ -1,3 +1,13 @@
+Version 0.2.0:
+ - excluded dirs, files; underscore is exclusion, too
+ - bower update
+ - wp jekyll 2
+ - gemfile update
+ - Merge tag '0.1.1' into develop
+ - Merge branch 'r-0.1.1'
+ - Version bump to 0.1.1
+ - Version bump to 0.1.1
+
 Version 0.1.1:
 
 
