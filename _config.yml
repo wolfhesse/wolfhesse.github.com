@@ -1,3 +1,4 @@
 name: wolfhesse.github.io
+exclude: excluded.d
 markdown: redcarpet
 highlight: pygments
