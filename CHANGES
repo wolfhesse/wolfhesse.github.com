@@ -1,3 +1,11 @@
+Version 0.3.0:
+ - adding required inf
+ - wp
+ - adding onetab exported data textfile; staff needs to get parsed
+ - wp
+ - Merge tag '0.2.0' into develop
+ - Merge branch 'r-0.2.0'
+
 Version 0.2.0:
  - excluded dirs, files; underscore is exclusion, too
  - bower update
