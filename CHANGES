@@ -1,3 +1,14 @@
+Version 0.4.0:
+ - Merge branch 'f/tid-onetab-data-management' into develop
+ - Merge tag '0.3.0' into develop
+ - Merge branch 'r/0.3.0'
+ - renaming file
+ - wp
+ - Merge branch 'f/tid-grunt-management' into develop
+ - wp
+ - test verschoben
+ - bissl aufraeumen
+
 Version 0.3.0:
  - adding required inf
  - wp

@@ -1,4 +1,4 @@
 name: wolfhesse.github.io
-exclude: [node_modules, package.json, resource.d, test]
+exclude: [resource.d]
 markdown: redcarpet
 highlight: pygments
