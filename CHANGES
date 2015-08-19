@@ -1,3 +1,8 @@
+Version 0.6.0:
+ - wp
+ - Merge tag '0.4.0' into develop
+ - Merge branch 'r/0.4.0'
+
 Version 0.4.0:
  - Merge branch 'f/tid-onetab-data-management' into develop
  - Merge tag '0.3.0' into develop
