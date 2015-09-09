@@ -18,4 +18,5 @@ Roger B. Andel, Informationssysteme, Wien
  - managementsysteme
   - prozessdesign
   - tuning
+  - antifragility
 

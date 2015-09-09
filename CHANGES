@@ -1,3 +1,9 @@
+Version 0.6.1:
+ - buchhaltung
+ - work meta info, antifragility
+ - Merge tag '0.6.0' into develop
+ - Merge branch 'r/0.6.0'
+
 Version 0.6.0:
  - wp
  - Merge tag '0.4.0' into develop
