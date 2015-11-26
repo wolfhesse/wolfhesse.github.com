@@ -1,3 +1,11 @@
+---
+title: fluchtdreieck, systeme, medium
+layout: post
+date: 2013/11/4 13:00
+author: rogera
+tags: :stage1 :type1tv :devops :process :howto :equilibrum :goal
+---
+
 ### devops regime
 
 ```
