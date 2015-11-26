@@ -1,7 +1,7 @@
 ---
-title: fluchtdreieck, systeme, medium
+title: devops regime
 layout: post
-date: 2013/11/4 13:00
+date: 2015/11/22 17:00
 author: rogera
 tags: :stage1 :type1tv :devops :process :howto :equilibrum :goal
 ---
