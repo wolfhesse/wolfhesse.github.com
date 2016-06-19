@@ -1,3 +1,13 @@
+Version 0.8.0:
+ - wp
+ - cleanup pre
+ - move index zur seite
+ - adding view3
+ - Merge branch 'master' of github.com:wolfhesse/wolfhesse.github.com
+ - Merge tag '0.7.1' into develop
+ - Merge branch 'r-0.7.1'
+ - markdown support removed
+
 Version 0.7.1:
 
 
