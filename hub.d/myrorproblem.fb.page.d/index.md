@@ -3,7 +3,7 @@ layout: page
 title: hub myrorproblem
 date: 2013/11/04
 tags: hub
-categories: fb
+categories: fb hub
 
 ---
 

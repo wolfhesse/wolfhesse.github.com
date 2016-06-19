@@ -39,4 +39,19 @@ describe('my app', function() {
     });
 
   });
+  
+  describe('view3', function() {
+
+    beforeEach(function() {
+      browser.get('index.html#!/view3');
+    });
+
+
+    it('should render view3 when user navigates to /view3', function() {
+      expect(element.all(by.css('[ng-view] p')).first().getText()).
+        toMatch(/partial for view 3/);
+    });
+
+  });
+
 });
