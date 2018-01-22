@@ -1,22 +1,54 @@
----
-title: sitemap
-date: 2013-11-03
----
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-{% for post in site.posts %}
-<url>
-<loc>http://wolfhesse.github.io{{ post.url | remove: 'index.html' }}</loc>
-</url>
-{% endfor %}
-
-{% for page in site.pages %}
-{% if page.layout != nil %}
-{% if page.layout != 'feed' %}
-<url>
-<loc>http://wolfhesse.github.io{{ page.url | remove: 'index.html' }}</loc>
-</url>
-{% endif %}
-{% endif %}
-{% endfor %}
+  
+  <url>
+    <loc>http://example.com/</loc>
+    <lastmod>2015-10-13T23:12:18-03:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://example.com/contact/</loc>
+    <lastmod>2015-10-13T23:12:18-03:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://example.com/about/</loc>
+    <lastmod>2015-10-13T23:12:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://example.com/posts/season-6-food-chain/</loc>
+    <lastmod>2014-06-12T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://example.com/posts/season-6-breezy/</loc>
+    <lastmod>2014-06-05T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://example.com/posts/season-6-sad-face/</loc>
+    <lastmod>2014-05-12T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://example.com/posts/season-6-the-tower/</loc>
+    <lastmod>2014-05-05T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://example.com/posts/season-6-james-ii/</loc>
+    <lastmod>2014-04-28T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://example.com/posts/season-6-escape-the-citadel/</loc>
+    <lastmod>2014-04-21T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://example.com/posts/season-6-wake-up/</loc>
+    <lastmod>2014-04-21T00:00:00+00:00</lastmod>
+  </url>
+  
 </urlset>
